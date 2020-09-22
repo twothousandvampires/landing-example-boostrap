@@ -1,0 +1,121 @@
+header ul li{
+    padding-right: 45px;
+}
+header .nav{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+header .nav ul li a{
+    font-size: 24px;
+}
+header .nav ul li a:hover{
+    color:#00bff2 !important;
+}
+h1, h3, p , a{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-size: 150px;
+}
+.stands{
+    padding: 120px 0;
+    display: flex;
+    flex-direction: row;
+}
+.a_stands{
+    border: 2px #00bff2 solid;   
+    padding: 8px 20px;
+    color:#00bff2;
+    text-decoration: none;
+}
+.a_stands:hover{
+    text-decoration: none;
+    color:white;
+    background: #f0c01b;
+    border: 2px #f0c01b solid;
+}
+.stands_buttons{
+    margin-top: 120px;
+}
+.point {
+    background: #00bff2;
+    border: 1px solid #00bff2;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.contacts{
+    width: 0;
+}
+.twitter, .facebook, .telegram{
+    background: #00bff2;
+    border: 1px solid #00bff2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -100px;
+    top:20%;
+}
+.easy{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.easy h3{
+    font-size: 80px;
+}
+.point_easy{
+    width: 25px;
+    background: #00bff2;
+    border: 1px solid #00bff2;
+    border-radius: 50px;
+    height: 25px;
+}
+.contacts_rect:hover{
+    background-color: white;
+    color: black;
+}
+.cont a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 12px;
+}
+@media (max-width:992px){
+    header .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+@media (max-width:400px){
+    .stands_a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px){
+    .stands_buttons div{
+        margin-bottom: 40px;
+    }
+    .stands{
+        padding-bottom: 80px;
+    }
+    .twitter, .facebook, .telegram{
+        left: -320px;
+        top:300px;
+        margin-right: 20px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
